@@ -1,0 +1,9 @@
+#contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+p {
+    margin-bottom: 0%;
+}

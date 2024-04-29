@@ -1,0 +1,31 @@
+<h1>Vivero El Otoño</h1>
+<hr>
+<img src="../../../assets/Imagen1.png" class="col-12">
+<hr>
+<div class="col-8">
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre común</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Clima</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr *ngFor="let plant of plantas">
+        <th>{{plant.id}}</th>
+        <td>{{plant.nombre_comun}}</td>
+        <td>{{plant.tipo}}</td>
+        <td>{{plant.clima}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+<p>Total plantas de interior: {{contador_interior}}</p>
+<p>Total plantas de exterior: {{contador_exterior}}</p>
+<p id="contacto">Contact us: +57 3102105253 - info&commat;viveroelotonio.com - &commat;viveroelotonio</p>
+  
+
